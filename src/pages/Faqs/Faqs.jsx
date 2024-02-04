@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import questions from '../../data/faqs';
+import Question from '../../components/Question/Question';
 
 const Faqs = () => {
-  return (
-    <h1>Faqs</h1>
-  )
-}
+	return (
+		<>
+			{questions.map(q => (
+        <Question question={q.question} answer={q.answer} />
+			))}
+		</>
+	);
+};
 
-export default Faqs
+export default Faqs;

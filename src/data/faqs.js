@@ -16,4 +16,4 @@ let questions = [
 	},
 ];
 
-export { questions };
+export default questions;
