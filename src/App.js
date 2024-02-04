@@ -9,7 +9,7 @@ import Faqs from './pages/Faqs/Faqs';
 
 function App() {
 	return (
-		<>
+		<div id="app">
 			<Navbar />
 			<Routes>
 				<Route path="/" element={<HomePage />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="/schedule" element={<Schedule /> } />
 				<Route path="/faqs" element={<Faqs />} />
 			</Routes>
-		</>
+		</div>
 	);
 }
 
