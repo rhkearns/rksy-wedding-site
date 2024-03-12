@@ -1,0 +1,66 @@
+@import '../../common/colors.scss';
+
+#story-block {
+  // width: 80%;
+  content: "";
+  color: navy;
+  display: flex;
+  flex-direction: column;
+  margin: 0; 
+  justify-content: center;
+  align-items: center;
+  // align-content: center;
+  // gap: 100px;
+  // z-index: -10;
+  // backdrop-filter: blur(10px);
+  // -webkit-backdrop-filter: blur(10px);
+}
+
+p {
+  text-align: center;
+  margin-top: 50px;
+  padding: 15px;
+  background-color: $background-transparent;
+  border: 2px solid rgb(209, 173, 12);
+  border-radius: 25px;
+  line-height: 1.6;
+  width: auto;
+}
+
+// @media only screen and (min-width: 500px) {
+//   #story-block {
+//     width: 100%
+//   }
+// }
+
+img {
+  border-radius: 25px;
+}
+
+#first-trip-nyc {
+  height: 550px;
+  margin-top: 50px;
+}
+
+#bos-commons {
+  margin-top: 40px;
+  height: 550px;
+}
+
+#photo-group-1 {
+  display: flex;
+  gap: 100px;
+}
+
+#photo-group-1-text {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 800px) {
+  #story-block {
+    // width: 750px;
+    margin: 0 10%;
+    text-align: center;
+  }
+}
