@@ -18,7 +18,7 @@ p {
 	padding: 15px;
 	background-color: $background-transparent;
 	border: 2px solid rgb(209, 173, 12);
-	border-radius: 25px;
+	border-radius: 15px;
 	line-height: 1.6;
 	width: auto;
 }
@@ -47,15 +47,10 @@ img {
 	height: 225px;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 650px) {
 	p {
 		margin: 20px 25px;
 		padding: 15px;
-		background-color: $background-transparent;
-		border: 2px solid rgb(209, 173, 12);
-		border-radius: 25px;
-		line-height: 1.6;
-		width: auto;
 	}
 
 	.photo-group {
