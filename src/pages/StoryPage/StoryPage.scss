@@ -1,66 +1,112 @@
 @import '../../common/colors.scss';
 
 #story-block {
-  // width: 80%;
-  content: "";
-  color: navy;
-  display: flex;
-  flex-direction: column;
-  margin: 0; 
-  justify-content: center;
-  align-items: center;
-  // align-content: center;
-  // gap: 100px;
-  // z-index: -10;
-  // backdrop-filter: blur(10px);
-  // -webkit-backdrop-filter: blur(10px);
+	// width: 80%;
+	content: '';
+	color: navy;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 5% 50px;
 }
 
 p {
-  text-align: center;
-  margin-top: 50px;
-  padding: 15px;
-  background-color: $background-transparent;
-  border: 2px solid rgb(209, 173, 12);
-  border-radius: 25px;
-  line-height: 1.6;
-  width: auto;
+	text-align: center;
+	margin: 20px 1px;
+	padding: 15px;
+	background-color: $background-transparent;
+	border: 2px solid rgb(209, 173, 12);
+	border-radius: 25px;
+	line-height: 1.6;
+	width: auto;
 }
-
-// @media only screen and (min-width: 500px) {
-//   #story-block {
-//     width: 100%
-//   }
-// }
 
 img {
-  border-radius: 25px;
+	border-radius: 25px;
 }
 
-#first-trip-nyc {
-  height: 550px;
-  margin-top: 50px;
+.cover-img {
+	height: 250px;
 }
 
-#bos-commons {
-  margin-top: 40px;
-  height: 550px;
+.bos {
+	height: 175px;
 }
 
-#photo-group-1 {
-  display: flex;
-  gap: 100px;
+.photo-group-img {
+	height: 175px;
 }
 
-#photo-group-1-text {
-  display: flex;
-  flex-direction: column;
+.vert {
+	height: 300px;
 }
 
-@media only screen and (min-width: 800px) {
-  #story-block {
-    // width: 750px;
-    margin: 0 10%;
-    text-align: center;
-  }
+.horiz {
+	height: 225px;
+}
+
+@media only screen and (min-width: 500px) {
+	p {
+		margin: 20px 25px;
+		padding: 15px;
+		background-color: $background-transparent;
+		border: 2px solid rgb(209, 173, 12);
+		border-radius: 25px;
+		line-height: 1.6;
+		width: auto;
+	}
+
+	.photo-group {
+		flex-direction: column;
+		margin: 10px;
+	}
+
+	.cover-img {
+		height: 300px;
+	}
+
+	.photo-group-img {
+		height: 300px;
+	}
+
+	.vert {
+		height: 350px;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	.cover-img {
+		margin-top: 5px;
+		height: 550px;
+	}
+
+	.bos {
+		height: 450px;
+	}
+
+	#story-block {
+		// width: 750px;
+	}
+
+	.photo-group {
+		display: flex;
+		align-items: center;
+		gap: 80px;
+	}
+
+	.photo-group-text {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.photo-group-img {
+		height: 400px;
+		margin: 20px 50px 0;
+	}
+
+	.message {
+		text-align: left;
+	}
 }
