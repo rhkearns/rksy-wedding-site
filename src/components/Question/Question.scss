@@ -1,11 +1,19 @@
+.answer {
+  margin: 0 15px;
+  line-height: 1.8rem;
+}
+
 .question {
   font-size: xx-large;
+  margin: 15px 15px;
 }
 
 .question-block {
-  margin-bottom: 25px;
+  margin: 25px 0;
 }
 
-.answer {
-  margin: 0 75px;
+@media only screen and (min-width: 800px) {
+	.answer {
+		margin: 0 75px;
+	}
 }
