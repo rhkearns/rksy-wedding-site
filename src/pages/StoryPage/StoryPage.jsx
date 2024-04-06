@@ -126,7 +126,11 @@ const StoryPage = () => {
 							first of many.
 						</p>{' '}
 					</div>
-					<img src={firstTrip} className="photo-group-img vert" alt="us in NYC" />
+					<img
+						src={firstTrip}
+						className="photo-group-img vert"
+						alt="us in NYC"
+					/>
 				</div>
 				<p>
 					Sam spotted Ryan first, ascending the escalator from the PATH train.
@@ -145,7 +149,11 @@ const StoryPage = () => {
 					that any day spent with Sam was better than any day without her.
 				</p>
 				<div className="photo-group">
-					<img src={nye} alt="New Years Eve" className="photo-group-img horiz" />
+					<img
+						src={nye}
+						alt="New Years Eve"
+						className="photo-group-img horiz"
+					/>
 					<div className="photo-group-text">
 						<p>
 							{' '}
@@ -193,7 +201,11 @@ const StoryPage = () => {
 							continue their lives together in Brooklyn.
 						</p>
 					</div>
-					<img src={moving} alt="moving ryan" className="photo-group-img vert" />
+					<img
+						src={moving}
+						alt="moving ryan"
+						className="photo-group-img vert"
+					/>
 				</div>
 				<p>
 					Daily walks in Prospect Park, trivia nights at Park Life, Van Lueween
@@ -207,15 +219,15 @@ const StoryPage = () => {
 					In addition to their day-to-days in Brooklyn, they were able to spend
 					holidays with family in New Jersey and Connecticut, weeks at LBI,
 					visiting family and friends in Florida, Boston, Maryland, Virginia,
-					Raleigh, South Carolina, Ohio, and Long Island. They attended many
-					weddings together, . A year of forming a new life together followed,
-					during which Ryan began planning and designing a ring. Their daily
-					walk in Prospect Park emerged as the obvious time to propose. So on a
-					beautiful fall evening, on their daily walk, Ryan directed them to
-					their summer reading spot on the main lawn. He began saying nice
-					things about Sam and their life together, and Sam was caught
-					completely by surprise - but happily said yes when he pulled out a
-					ring.
+					Raleigh, South Carolina, Ohio, and Long Island. They were able to
+					celebrate many friends' weddings together. A year of forming a new
+					life together followed, during which Ryan began planning and designing
+					a ring. Their daily walk in Prospect Park emerged as the obvious time
+					to propose. So on a beautiful fall evening, on their daily walk, Ryan
+					directed them to their summer reading spot on the main lawn. He began
+					saying nice things about Sam and their life together, and Sam was
+					caught completely by surprise - but happily said yes when he pulled
+					out a ring.
 				</p>
 				<p>
 					When Sam first sent that message in the fall of 2020, not knowing
