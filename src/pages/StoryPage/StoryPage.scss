@@ -1,7 +1,6 @@
 @import '../../common/colors.scss';
 
 #story-block {
-	// width: 80%;
 	content: '';
 	color: navy;
 	display: flex;
@@ -73,7 +72,7 @@ img {
 
 @media only screen and (min-width: 1300px) {
 	.cover-img {
-		margin-top: 5px;
+		margin: 20px 0;
 		height: 550px;
 	}
 
@@ -84,7 +83,9 @@ img {
 	.photo-group {
 		display: flex;
 		align-items: center;
-		gap: 80px;
+		gap: 0px;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 
 	.photo-group-text {
@@ -95,6 +96,14 @@ img {
 	.photo-group-img {
 		height: 400px;
 		margin: 20px 50px 0;
+	}
+
+	.vert {
+		margin: 20px 0 20px;
+	}
+
+	.horiz {
+		margin: 20px 0;
 	}
 
 	.message {
