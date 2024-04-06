@@ -2,3 +2,44 @@
 	margin: 0 15px;
 }
 
+.addresses {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+p {
+	color: navy;
+}
+
+.from-the {
+	font-weight: bold;
+}
+
+// .address {
+// 	width: 40%;
+// }
+
+@media only screen and (min-width: 900px) {
+	.addresses {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.compass-block {
+		margin: 30px 50px;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	#directions {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+	.compass-block {
+		width: 40%;
+	}
+}
