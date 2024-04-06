@@ -1,6 +1,8 @@
 .answer {
   margin: 0 15px;
   line-height: 1.8rem;
+  color: navy;
+  font-size: large;
 }
 
 .question {
@@ -14,6 +16,6 @@
 
 @media only screen and (min-width: 800px) {
 	.answer {
-		margin: 0 75px;
+		margin: 0 175px;
 	}
 }

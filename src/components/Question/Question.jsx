@@ -5,7 +5,7 @@ const Question = q => {
 	return (
 		<div className='question-block'>
 			<h2 className="question">{q.question}</h2>
-			<h3 className="answer">{q.answer}</h3>
+			<p className="answer">{q.answer}</p>
 		</div>
 	);
 };
