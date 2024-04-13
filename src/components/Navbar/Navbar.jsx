@@ -1,52 +1,91 @@
-import React, { useRef } from 'react';
+import React, { useState } from 'react';
 import './navbar.scss';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { IoClose, IoMenu } from 'react-icons/io5';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-	const navRef = useRef();
+	const [showMenu, setShowMenu] = useState(false);
 
-	const showNavbar = () => {
-		navRef.current.classList.toggle('responsive_nav');
+	const toggleMenu = () => {
+		setShowMenu(!showMenu);
 	};
 
-	// const hideNavbar = () => {
-	// 	navRef.current.classList.remove('responsive_nav');
-	// };
+	const closeMenuOnMobile = () => {
+		if (window.innerWidth <= 1150) {
+			setShowMenu(false);
+		}
+	};
 
 	return (
-		<header>
-			<nav ref={navRef} className="nav-bar">
-				<NavLink to="/" className="nav-link" onClick={showNavbar}>
-					Home
-				</NavLink>
-				<NavLink to="/story" className="nav-link" onClick={showNavbar}>
-					Our Story
-				</NavLink>
-				<NavLink to="/directions" className="nav-link" onClick={showNavbar}>
-					Directions
-				</NavLink>
-				<NavLink to="/schedule" className="nav-link" onClick={showNavbar}>
-					Schedule
-				</NavLink>
-				<a
-					href="https://www.zola.com/registry/ryanandsam2025"
-					target="_blank"
-					rel="noopener noreferrer"
-					onClick={showNavbar}
+		<header className="header">
+			<nav className="nav container">
+				<div
+					className={`nav__menu ${showMenu ? 'show-menu' : ''}`}
+					id="nav-menu"
 				>
-					Registry
-				</a>
-				<NavLink to="/faqs" className="nav-link" onClick={showNavbar}>
-					FAQs
-				</NavLink>
-				<button className="nav-btn nav-close-btn" onClick={showNavbar}>
-					<FaTimes />
-				</button>
+					<ul className="nav__list">
+						<li className="nav__item">
+							<NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
+								Home
+							</NavLink>
+						</li>
+						<li className="nav__item">
+							<NavLink
+								to="/story"
+								className="nav__link"
+								onClick={closeMenuOnMobile}
+							>
+								Our Story
+							</NavLink>
+						</li>
+						<li className="nav__item">
+							<NavLink
+								to="/directions"
+								className="nav__link"
+								onClick={closeMenuOnMobile}
+							>
+								Directions
+							</NavLink>
+						</li>
+						<li className="nav__item">
+							<NavLink
+								to="/schedule"
+								className="nav__link"
+								onClick={closeMenuOnMobile}
+							>
+								Schedule
+							</NavLink>
+						</li>
+						<li className="nav__item">
+							<a
+								href="https://www.zola.com/registry/ryanandsam2025"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="nav__link"
+								onClick={closeMenuOnMobile}
+							>
+								Registry
+							</a>
+						</li>
+						<li className="nav__item">
+							<NavLink
+								to="/faqs"
+								className="nav__link"
+								onClick={closeMenuOnMobile}
+							>
+								FAQs
+							</NavLink>
+						</li>
+					</ul>
+					<div className="nav__close" id="nav-close" onClick={toggleMenu}>
+						<IoClose />
+					</div>
+				</div>
+
+				<div className="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
+					<IoMenu />
+				</div>
 			</nav>
-			<button className="nav-btn" onClick={showNavbar}>
-				<FaBars />
-			</button>
 		</header>
 	);
 };

@@ -1,68 +1,173 @@
-nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	padding: 0px 15px;
-	border-bottom: 1px solid white;
-	height: 65px;
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
 }
 
-.nav-bar a:hover {
-	border-bottom: 2px solid rgb(209, 173, 12);
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 1rem;
 }
 
-.nav-bar a {
+.nav__toggle,
+.nav__close {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: hsla(0, 0%, 6%, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    width: 80%;
+    height: 100%;
+    padding: 6rem 3rem 0;
+    transition: right 0.4s;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .nav__menu {
+    padding: 4rem 1rem 2rem;
+  }
+
+  .nav__list {
+    row-gap: 1rem;
+  }
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+	list-style-type: none;
+}
+
+.nav__link {
+  color: white;
+  transition: color 0.4s;
 	text-decoration: none;
-	font-weight: 500;
-	font-size: 1.5rem;
-	color: white;
 }
 
-.nav-btn {
-	padding: 5px;
-	cursor: pointer;
-	background: transparent;
-	border: none;
-	outline: none;
-	color: white;
-	visibility: hidden;
-	opacity: 0;
-	font-size: 1.5rem;
+.nav__link:hover {
+  border-bottom: 2px solid rgb(209, 173, 12);
 }
 
-@media only screen and (max-width: 800px) {
-	.nav-btn {
-		visibility: visible;
-		opacity: 1;
-    right: true;
-	}
-
-	nav {
-		position: fixed;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 1.5rem;
-		background: url(../../images/Background_small.png) no-repeat center center
-			fixed;
-		background-size: cover;
-    // background-color: purple;
-		transition: 1s;
-	}
-
-	.responsive_nav {
-		transform: none;
-		transform: translateY(-100vh);
-	}
-
-	.nav-close-btn {
-		position: absolute;
-		top: 2rem;
-		right: 5rem;
-	}
+.nav__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
 }
+
+.show-menu {
+  right: 0;
+}
+
+.nav__listt {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2.5rem;
+}
+
+.nav__menu_mobile {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  background-color: hsla(0, 0%, 6%, 0.2);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  width: 80%;
+  height: 100%;
+  padding: 6rem 3rem 0;
+  transition: right 0.4s;
+}
+
+@media screen and (min-width: 1150px) {
+  .nav__toggle,
+  .nav__close {
+    display: none;
+  }
+
+  .nav__list {
+    flex-direction: row;
+    column-gap: 2.5rem;
+  }
+}
+
+// nav {
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: space-around;
+// 	padding: 0px 15px;
+// 	border-bottom: 1px solid white;
+// 	height: 65px;
+// }
+
+// .nav-bar a:hover {
+// 	border-bottom: 2px solid rgb(209, 173, 12);
+// }
+
+// .nav-bar a {
+// 	text-decoration: none;
+// 	font-weight: 500;
+// 	font-size: 1.5rem;
+// 	color: white;
+// }
+
+// .nav-btn {
+// 	padding: 5px;
+// 	cursor: pointer;
+// 	background: transparent;
+// 	border: none;
+// 	outline: none;
+// 	color: white;
+// 	visibility: hidden;
+// 	opacity: 0;
+// 	font-size: 1.5rem;
+// }
+
+// @media only screen and (max-width: 800px) {
+// 	.nav-btn {
+// 		visibility: visible;
+// 		opacity: 1;
+//     right: true;
+// 	}
+
+// 	nav {
+// 		position: fixed;
+// 		top: 0;
+// 		left: 0;
+// 		height: 100%;
+// 		width: 100%;
+// 		display: flex;
+// 		flex-direction: column;
+// 		align-items: center;
+// 		justify-content: center;
+// 		gap: 1.5rem;
+// 		background: url(../../images/Background_small.png) no-repeat center center
+// 			fixed;
+// 		background-size: cover;
+//     // background-color: purple;
+// 		transition: 1s;
+// 	}
+
+// 	.responsive_nav {
+// 		transform: none;
+// 		transform: translateY(-100vh);
+// 	}
+
+// 	.nav-close-btn {
+// 		position: absolute;
+// 		top: 2rem;
+// 		right: 5rem;
+// 	}
+// }
