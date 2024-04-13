@@ -9,21 +9,33 @@ const Directions = () => {
 				<div className="location-block" id="fcp">
 					<div id="fcp-address">
 						<h3>Factoria at Charles Point</h3>
-						<p className="address">
-							5 John Walsh Blvd
-							<br />
-							Peekskill, New York 10566
-						</p>
+						<a
+							href="https://maps.app.goo.gl/dteKZEHsqECJ2xQC8"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<p className="address">
+								5 John Walsh Blvd
+								<br />
+								Peekskill, New York 10566
+							</p>
+						</a>
 					</div>
 				</div>
 				<div className="location-block" id="hiex">
 					<div id="hiex-address">
 						<h3>Holiday Inn Express & Suites</h3>
-						<p className="address">
-							2 John Wahsh Blvd
-							<br />
-							Peekskill, New york
-						</p>
+						<a
+							href="https://maps.app.goo.gl/kmcMrRKgJA8UwQZD9"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<p className="address">
+								2 John Wahsh Blvd
+								<br />
+								Peekskill, New york
+							</p>
+						</a>
 					</div>
 					<div id="hiex-address"></div>
 				</div>
