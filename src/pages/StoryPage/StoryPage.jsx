@@ -79,7 +79,7 @@ const StoryPage = () => {
 					</div>
 				</div>
 				<p>
-					Eventually, Sam decided to take matters into her own hands. She pulled
+					Finally in October, Sam decided to take matters into her own hands. She pulled
 					open Facebook Messenger, typed out a message, and let it sit there
 					unsent for…hours? Days? Who’s to say? But eventually, she hit send and
 					waited anxiously for him to respond: <br />
@@ -183,6 +183,11 @@ const StoryPage = () => {
 					years in the DC Metro area).
 				</p>
 				<div className="photo-group">
+				<img
+						src={moving}
+						alt="moving ryan"
+						className="photo-group-img vert"
+					/>
 					<div className="photo-group-text">
 						<p>
 							They settled again into another new routine, spending the work
@@ -201,11 +206,7 @@ const StoryPage = () => {
 							continue their lives together in Brooklyn.
 						</p>
 					</div>
-					<img
-						src={moving}
-						alt="moving ryan"
-						className="photo-group-img vert"
-					/>
+					
 				</div>
 				<p>
 					Daily walks in Prospect Park, trivia nights at Park Life, Van Lueween
