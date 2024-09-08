@@ -40,11 +40,11 @@ const Navbar = () => {
 						</li>
 						<li className="nav__item">
 							<NavLink
-								to="/directions"
+								to="/locations"
 								className="nav__link"
 								onClick={closeMenuOnMobile}
 							>
-								Directions
+								Locations
 							</NavLink>
 						</li>
 						<li className="nav__item">

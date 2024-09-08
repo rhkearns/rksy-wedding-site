@@ -6,6 +6,7 @@ import nye from '../../images/nye.JPG';
 import moving from '../../images/moving.JPG';
 import zoom from '../../images/zoom.JPG';
 import vaMountain from '../../images/va-mountain.jpg';
+import watercolor from '../../images/background_front.jpg';
 
 const StoryPage = () => {
 	return (
@@ -79,10 +80,10 @@ const StoryPage = () => {
 					</div>
 				</div>
 				<p>
-					Finally in October, Sam decided to take matters into her own hands. She pulled
-					open Facebook Messenger, typed out a message, and let it sit there
-					unsent for…hours? Days? Who’s to say? But eventually, she hit send and
-					waited anxiously for him to respond: <br />
+					Finally in October, Sam decided to take matters into her own hands.
+					She pulled open Facebook Messenger, typed out a message, and let it
+					sit there unsent for…hours? Days? Who’s to say? But eventually, she
+					hit send and waited anxiously for him to respond: <br />
 					<span className="message">
 						Samantha, 12:13am: “Hey! I just wanted to tell you that I love the
 						voices you do during the read alouds! I know we haven't interacted
@@ -183,7 +184,7 @@ const StoryPage = () => {
 					years in the DC Metro area).
 				</p>
 				<div className="photo-group">
-				<img
+					<img
 						src={moving}
 						alt="moving ryan"
 						className="photo-group-img vert"
@@ -206,7 +207,6 @@ const StoryPage = () => {
 							continue their lives together in Brooklyn.
 						</p>
 					</div>
-					
 				</div>
 				<p>
 					Daily walks in Prospect Park, trivia nights at Park Life, Van Lueween
@@ -239,7 +239,11 @@ const StoryPage = () => {
 					Hudson River, holding up their glasses and saying in loud voices: “To
 					Ryan and Sam, husband and wife!“
 				</p>
-				<img src={vaMountain} alt="Us in Virginia" className="cover-img" />
+				<img
+					src={watercolor}
+					alt="The view from our engagement spot"
+					className="cover-img"
+				/>
 			</div>
 		</>
 	);

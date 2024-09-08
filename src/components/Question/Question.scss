@@ -1,7 +1,9 @@
+@import '../../common/colors.scss';
+
 .answer {
   margin: 0 15px;
   line-height: 1.8rem;
-  color: navy;
+  color: $std-green;
   font-size: large;
 }
 

@@ -2,7 +2,7 @@
 
 #story-block {
 	content: '';
-	color: #284057;
+	color: $std-green;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -11,15 +11,17 @@
 	margin: 0 5% 50px;
 }
 
-p {
+#story-block > p,
+.photo-group-text > p {
 	text-align: center;
 	margin: 20px 1px;
 	padding: 15px;
-	background-color: $background-transparent;
-	border: 2px solid rgb(209, 173, 12);
+	background-color: rgba(255, 255, 255, 0.605);
+	border: 2px solid $std-green;
 	border-radius: 15px;
 	line-height: 1.6;
 	width: auto;
+	color: $std-green;
 }
 
 img {
