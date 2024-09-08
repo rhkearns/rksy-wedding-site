@@ -5,7 +5,6 @@ import firstTrip from '../../images/first-trip-nyc.JPG';
 import nye from '../../images/nye.JPG';
 import moving from '../../images/moving.JPG';
 import zoom from '../../images/zoom.JPG';
-import vaMountain from '../../images/va-mountain.jpg';
 import watercolor from '../../images/background_front.jpg';
 
 const StoryPage = () => {
