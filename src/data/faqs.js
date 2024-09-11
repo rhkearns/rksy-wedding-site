@@ -24,6 +24,11 @@ let questions = [
 		answer:
 			'We will only have shuttles available from the Holiday Inn Express. You are welcome to stay at another hotel, but you will be reponsible for securing your own transportation.',
 	},
+	{
+		question: 'Who made this beautiful website?',
+		answer:
+			'Ryan made this website (becuase Sam wanted more customization options than what Zola provided).',
+	},
 ];
 
 export default questions;
