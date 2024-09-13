@@ -27,7 +27,7 @@ let questions = [
 	{
 		question: 'Who made this beautiful website?',
 		answer:
-			'Ryan made this website (becuase Sam wanted more customization options than what Zola provided).',
+			'Ryan made this website (because Sam wanted more customization options than what Zola provided).',
 	},
 	{
 		question: "Who painted that beautiful watercolor on the Our Story Page?",
