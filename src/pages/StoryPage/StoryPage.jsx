@@ -238,11 +238,13 @@ const StoryPage = () => {
 					Hudson River, holding up their glasses and saying in loud voices: “To
 					Ryan and Sam, husband and wife!“
 				</p>
-				<img
-					src={watercolor}
-					alt="The view from our engagement spot"
-					className="cover-img"
-				/>
+				<a href={"https://www.instagram.com/neerthecreek/"}>
+					<img
+						src={watercolor}
+						alt="The view from our engagement spot"
+						className="cover-img"
+					/>
+				</a>
 			</div>
 		</>
 	);

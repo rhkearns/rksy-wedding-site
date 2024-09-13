@@ -29,6 +29,10 @@ let questions = [
 		answer:
 			'Ryan made this website (becuase Sam wanted more customization options than what Zola provided).',
 	},
+	{
+		question: "Who painted that beautiful watercolor on the Our Story Page?",
+		answer: "That was painted by Katie Lackey. You can find her Instagram page by clicking on the painting."
+	}
 ];
 
 export default questions;
