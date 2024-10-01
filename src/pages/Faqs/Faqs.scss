@@ -1,5 +1,11 @@
+@import '../../common/colors.scss';
+
 .questions {
   margin: 55px;
+}
+
+#email-link {
+	color: $std-green;
 }
 
 @media only screen and (min-width: 800px) {
