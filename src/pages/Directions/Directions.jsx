@@ -43,7 +43,7 @@ const Directions = () => {
 								Please select "Group Rate" in the "Rate Preference dropdown and
 								enter code "YKW" to receive the discounted price.
 							</p>
-							<a href="https://www.hiexpress.com/peekskillny" id="hotel-link" target="_blank">
+							<a href="https://www.hiexpress.com/peekskillny" target="_blank" id="hotel-link" >
 								Reserve your room here
 							</a>
 							<img
