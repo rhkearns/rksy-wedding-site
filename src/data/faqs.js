@@ -20,6 +20,19 @@ let questions = [
 	},
 	{
 		question:
+			'I went to book a room at the Holiday Inn with the room block and group rate, but no rooms showed up',
+		answer:
+			'Please <a
+					href="mailto:rksy18371@gmail.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					id="email-link"
+				>
+				email Sam and Ryan
+				</a> and they will make sure there are more rooms added to the block.',
+	},
+	{
+		question:
 			'I want to stay at a different hotel; will there be transportation to the venue from other hotels?',
 		answer:
 			'We will only have shuttles available from the Holiday Inn Express. You are welcome to stay at another hotel, but you will be reponsible for securing your own transportation.',
