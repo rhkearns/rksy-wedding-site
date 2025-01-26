@@ -20,9 +20,9 @@ let questions = [
 	},
 	{
 		question:
-			'I went to book a room at the Holiday Inn with the room block and group rate, but no rooms showed up',
+			'I went to book a room at the Holiday Inn with the room block and group rate, but no rooms showed up.',
 		answer:
-			'Please <a href="mailto:rksy18371@gmail.com" target="_blank" rel="noopener noreferrer"id="email-link" > email Sam and Ryan</a> and they will make sure there are more rooms added to the block.',
+			'Please email Sam and Ryan and they will make sure there are more rooms added to the block.',
 	},
 	{
 		question:
