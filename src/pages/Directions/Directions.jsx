@@ -42,7 +42,7 @@ const Directions = () => {
 								A room block is available for the night of Saturday, April 26.
 								Please select "Group Rate" in the "Rate Preference dropdown and
 								enter code "YKW" to receive the discounted price.
-								** If you have trouble booking a room as part of the room block, please send us an 
+								<br />** If you have trouble booking a room as part of the room block, please send us an 
 								<a
 									href="mailto:rksy18371@gmail.com"
 									target="_blank"
