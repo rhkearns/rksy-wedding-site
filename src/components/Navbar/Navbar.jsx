@@ -47,14 +47,16 @@ const Navbar = () => {
 								Locations
 							</NavLink>
 						</li>
-						<li className="nav__item">
-							<NavLink
-								to="/schedule"
+						<li className='nav__item'>
+							<a
+								href="https://www.zola.com/wedding/ryanandsam2025/rsvp"
+								target="_blank"
+								rel="noopener noreferrer"
 								className="nav__link"
 								onClick={closeMenuOnMobile}
 							>
-								Schedule
-							</NavLink>
+								RSVP
+							</a>
 						</li>
 						<li className="nav__item">
 							<a
