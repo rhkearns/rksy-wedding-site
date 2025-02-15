@@ -10,7 +10,19 @@ const Details = () => {
 				See below for weekend activities and hotel information
 			</h5>
 			<div className="event-info">
-				<h2>Saturday, April 26th</h2>
+				<h2>Friday, April 25th</h2>
+				<p>
+					For those who would like to stay in Peekskill for two nights {<br />}{' '}
+					we will be hosting a prosecco toast to welcome you at The Abbey Hotel,
+					900 Fort Hill Rd, Peekskill, at 8:30pm in the Cornerstone Room, on the
+					second floor of the hotel. The Abbey is a 7 minute drive from the
+					Holiday Inn Express. {<br />} We then welcome you to join us at the
+					bar at the Abbey (while Ryan and Sam go to sleep to get ready for the
+					big day!)
+				</p>
+			</div>
+			<div className="event-info">
+				<h2>Saturday, April 26th - Wedding Day!</h2>
 				<h4 id="location-title">Factoria at Charles Point</h4>
 				<a
 					href="https://maps.app.goo.gl/dteKZEHsqECJ2xQC8"
@@ -26,7 +38,7 @@ const Details = () => {
 				<div className="ceremony-info">
 					<p>
 						Shuttle bus will be leaving at 3:50pm, making 3 trips between the
-						Holiday Inn Express and Factoria (it's just down the block!)
+						Holiday Inn Express (hotel information below) and Factoria (it's just down the block!)
 					</p>
 					<p>
 						Ceremony begins at 4pm and goes to 5pm {<br />} Cocktail Hour begins
@@ -41,18 +53,6 @@ const Details = () => {
 						throughout the 10pm to 11:30pm time frame
 					</p>
 				</div>
-			</div>
-			<div className="event-info">
-				<h2>Friday, April 25th</h2>
-				<p>
-					For those who would like to stay in Peekskill for two nights {<br />}{' '}
-					we will be hosting a prosecco toast to welcome you at The Abbey Hotel,
-					900 Fort Hill Rd, Peekskill, at 8:30pm in the Cornerstone Room, on the
-					second floor of the hotel. The Abbey is a 7 minute drive from the
-					Holiday Inn Express. {<br />} We then welcome you to join us at the
-					bar at the Abbey (while Ryan and Sam go to sleep to get ready for the
-					big day!)
-				</p>
 			</div>
 			<div className="event-info">
 				<h2>Sunday, April 27th</h2>
@@ -106,7 +106,8 @@ const Details = () => {
 						id="hotel-link"
 					>
 						Reserve your room here
-					</a>{<br />}
+					</a>
+					{<br />}
 					<img
 						src={hotelImg}
 						alt="screenshot of the hotel website"
