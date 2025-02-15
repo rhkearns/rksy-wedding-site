@@ -7,7 +7,7 @@ const Details = () => {
 		<div className="details-page">
 			<h1 id="page-title">Wedding Weekend Details</h1>
 			<h5 id="disclaimer">
-				See below for other weekend activities and hotel information
+				See below for weekend activities and hotel information
 			</h5>
 			<div className="event-info">
 				<h2>Saturday, April 26th</h2>
