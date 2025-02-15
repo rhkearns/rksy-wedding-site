@@ -1,0 +1,68 @@
+@import '../../common/colors.scss';
+
+.details-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+#page-title {
+	margin-bottom: 5px;
+}
+
+#disclaimer {
+	margin-top: 0.5px;
+}
+
+.event-info,
+.hotel-details {
+	border: 2px solid $std-green;
+	border-radius: 15px;
+	line-height: 1.6;
+	width: auto;
+	color: $std-green;
+	background-color: rgba(255, 255, 255, 0.605);
+	margin: 20px 25px;
+	padding: 15px 25px;
+	text-align: center;
+
+	#location-title {
+		font-weight: bold;
+		margin-bottom: 1px;
+	}
+
+	h2 {
+		text-decoration: underline;
+	}
+}
+
+#hotel-img {
+	height: 210px;
+	margin-top: 5px;
+}
+
+.ceremony-info {
+	p {
+		margin: 0;
+		padding: 5px;
+	}
+}
+
+@media only screen and (min-width: 650px) {
+	.event-info,
+	.hotel-details {
+		width: 75%;
+	}
+
+	#hotel-img {
+		height: 300px;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	#hotel-img {
+		height: 550px;
+	}
+}
