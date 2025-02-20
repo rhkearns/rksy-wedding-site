@@ -116,7 +116,7 @@ const Details = () => {
 						id="hotel-img"
 					/>
 					<h5>If you would like to stay at another hotel, here are some options, but keep in mind that we will not have shuttle services to and from these hotels</h5>
-					{br />}
+					{<br />}
 					<span className="address">
 						The Abbey Inn and Spa
 						900 Fort Hill Road, Peekskill, New York
@@ -130,7 +130,7 @@ const Details = () => {
 						</a>
 						7-10 minute drive to Factoria
 					</span>
-					{br />}
+					{<br />}
 					<span className="address">
 						Bear Mountain Inn
 						3020 Seven Lakes Drive, Tomkins Cove, New York
@@ -144,7 +144,7 @@ const Details = () => {
 						</a>
 						16-20 Minute Drive to Factoria
 					</span>
-					{br />}
+					{<br />}
 					<span className="address">
 						Holiday Inn Express & Suites West Point-Fort Montgomery
 						1106 Rte 9W, Fort Montgomery, New York
