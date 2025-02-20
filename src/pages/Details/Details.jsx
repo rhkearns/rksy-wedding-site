@@ -77,7 +77,7 @@ const Details = () => {
 							<span className="address">
 								2 John Wahsh Blvd
 								<br />
-								Peekskill, New york
+								Peekskill, New York
 							</span>
 						</a>{' '}
 						<p>
@@ -108,11 +108,56 @@ const Details = () => {
 						Reserve your room here
 					</a>
 					{<br />}
+					<h3>2/20: We are aware of issues booking at this hotel. We are working on fixing is. Please check back here for updates!</h3>
+					{<br />}
 					<img
 						src={hotelImg}
 						alt="screenshot of the hotel website"
 						id="hotel-img"
 					/>
+					<h5>If you would like to stay at another hotel, here are some options, but keep in mind that we will not have shuttle services to and from these hotels</h5>
+					{br />}
+					<span className="address">
+						The Abbey Inn and Spa
+						900 Fort Hill Road, Peekskill, New York
+						<a 
+							href="https://www.theabbeyinn.com/" 
+							target="_blank" 
+							rel="noopener noreferrer" 
+							id="hotel-link"
+							>
+							https://www.theabbeyinn.com/
+						</a>
+						7-10 minute drive to Factoria
+					</span>
+					{br />}
+					<span className="address">
+						Bear Mountain Inn
+						3020 Seven Lakes Drive, Tomkins Cove, New York
+						<a 
+							href="https://visitbearmountain.com/book" 
+							target="_blank" 
+							rel="noopener noreferrer" 
+							id="hotel-link"
+							>
+							https://visitbearmountain.com/book
+						</a>
+						16-20 Minute Drive to Factoria
+					</span>
+					{br />}
+					<span className="address">
+						Holiday Inn Express & Suites West Point-Fort Montgomery
+						1106 Rte 9W, Fort Montgomery, New York
+						<a 
+							href="https://www.ihg.com/holidayinnexpress/hotels/us/en/fort-montgomery/ftmny/hoteldetail" 
+							target="_blank" 
+							rel="noopener noreferrer" 
+							id="hotel-link"
+							>
+							https://www.ihg.com/holidayinnexpress/hotels/us/en/fort-montgomery/
+						</a>
+						17-20 Minute Drive to Factoria
+					</span>
 				</div>
 			</div>
 		</div>
