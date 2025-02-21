@@ -38,7 +38,8 @@ const Details = () => {
 				<div className="ceremony-info">
 					<p>
 						Shuttle bus will be leaving at 3:50pm, making 3 trips between the
-						Holiday Inn Express (hotel information below) and Factoria (it's just down the block!)
+						Holiday Inn Express (hotel information below) and Factoria (it's
+						just down the block!)
 					</p>
 					<p>
 						Ceremony begins at 4pm and goes to 5pm {<br />} Cocktail Hour begins
@@ -108,68 +109,91 @@ const Details = () => {
 						Reserve your room here
 					</a>
 					{<br />}
-					<h3>2/20: We are aware of issues booking at this hotel. We are working on fixing it. Please check back here for updates!</h3>
+					<h3>
+						2/20: We are aware of issues booking at this hotel. We are working
+						on fixing it. Please check back here for updates!
+					</h3>
 					{<br />}
 					<img
 						src={hotelImg}
 						alt="screenshot of the hotel website"
 						id="hotel-img"
 					/>
-					<h5>If you would like to stay at another hotel, here are some options, but keep in mind that we will not have shuttle services to and from these hotels</h5>
 					{<br />}
 					{<br />}
+					<h5>
+						If you would like to stay at another hotel, here are some options,
+						but keep in mind that we will not have shuttle services to and from
+						these hotels:
+					</h5>
 					<span className="address">
-						The Abbey Inn and Spa{<br />}
+						<h4 id="location-title">The Abbey Inn and Spa</h4>
 						900 Fort Hill Road, Peekskill, New York{<br />}
-						<a 
-							href="https://www.theabbeyinn.com/" 
-							target="_blank" 
-							rel="noopener noreferrer" 
+						<a
+							href="https://www.theabbeyinn.com/"
+							target="_blank"
+							rel="noopener noreferrer"
 							id="hotel-link"
-							>
+						>
 							https://www.theabbeyinn.com/
-						</a>{<br />}
+						</a>
+						{<br />}
 						7-10 minute drive to Factoria
 					</span>
 					{<br />}
 					{<br />}
 					<span className="address">
-						Bear Mountain Inn{<br />}
+						<h4 id="location-title">Bear Mountain Inn</h4>
 						3020 Seven Lakes Drive, Tomkins Cove, New York{<br />}
-						<a 
-							href="https://visitbearmountain.com/book" 
-							target="_blank" 
-							rel="noopener noreferrer" 
+						<a
+							href="https://visitbearmountain.com/book"
+							target="_blank"
+							rel="noopener noreferrer"
 							id="hotel-link"
-							>
+						>
 							https://visitbearmountain.com/book
-						</a>{<br />}
+						</a>
+						{<br />}
 						16-20 Minute Drive to Factoria
 					</span>
 					{<br />}
 					{<br />}
 					<span className="address">
-						Holiday Inn Express & Suites West Point-Fort Montgomery{<br />}
+						<h4 id="location-title">
+							Holiday Inn Express & Suites West Point-Fort Montgomery
+						</h4>
 						1106 Rte 9W, Fort Montgomery, New York{<br />}
-						<a 
-							href="https://www.ihg.com/holidayinnexpress/hotels/us/en/fort-montgomery/ftmny/hoteldetail" 
-							target="_blank" 
-							rel="noopener noreferrer" 
+						<a
+							href="https://www.ihg.com/holidayinnexpress/hotels/us/en/fort-montgomery/ftmny/hoteldetail"
+							target="_blank"
+							rel="noopener noreferrer"
 							id="hotel-link"
-							>
+						>
 							https://www.ihg.com/holidayinnexpress/hotels/us/en/fort-montgomery/
-						</a>{<br />}
+						</a>
+						{<br />}
 						17-20 Minute Drive to Factoria
 					</span>
 				</div>
+			</div>
+			<div className="event-info">
+				<h2>Transportation</h2>
+				<p>
+					Public transportation from NYC is available via Metro North from Grand
+					Central Station to Peekskill. The train ride is about an hour and ten
+					minutes and runs about every hour.{<br />}
+					The train station is a 2 minute drive (ubers are available) to the
+					Holiday Inn Express and a 4 minute drive to Factoria.
+				</p>
+			</div>
+			<div className="event-info">
+				<h2>
+					Please reach out to Ryan and Sam if you have any questions on any of
+					this!{<br />} We can't wait to celebrate with you!
+				</h2>
 			</div>
 		</div>
 	);
 };
 
 export default Details;
-
-/* <h3>Holiday Inn Express & Suites</h3>
- */
-
-// <h3>Factoria at Charles Point</h3>
