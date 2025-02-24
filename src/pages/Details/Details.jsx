@@ -110,7 +110,7 @@ const Details = () => {
 					</a>
 					{<br />}
 					<h3>
-						2/20: We are aware of issues booking at this hotel. We are working
+						2/20: We are aware of issues booking at this hotel for one night. We are working
 						on fixing it. Please check back here for updates!
 					</h3>
 					{<br />}
@@ -127,51 +127,45 @@ const Details = () => {
 						these hotels:
 					</h5>
 					<span className="address">
-						<h4 id="location-title">The Abbey Inn and Spa</h4>
-						900 Fort Hill Road, Peekskill, New York{<br />}
 						<a
 							href="https://www.theabbeyinn.com/"
 							target="_blank"
 							rel="noopener noreferrer"
 							id="hotel-link"
 						>
-							https://www.theabbeyinn.com/
+							<h4 id="location-title">The Abbey Inn and Spa</h4>{' '}
 						</a>
-						{<br />}
+						900 Fort Hill Road, Peekskill, New York{<br />}
 						7-10 minute drive to Factoria
 					</span>
 					{<br />}
 					{<br />}
 					<span className="address">
-						<h4 id="location-title">Bear Mountain Inn</h4>
-						3020 Seven Lakes Drive, Tomkins Cove, New York{<br />}
 						<a
 							href="https://visitbearmountain.com/book"
 							target="_blank"
 							rel="noopener noreferrer"
 							id="hotel-link"
 						>
-							https://visitbearmountain.com/book
+							<h4 id="location-title">Bear Mountain Inn</h4>{' '}
 						</a>
-						{<br />}
+						3020 Seven Lakes Drive, Tomkins Cove, New York{<br />}
 						16-20 Minute Drive to Factoria
 					</span>
 					{<br />}
 					{<br />}
 					<span className="address">
-						<h4 id="location-title">
-							Holiday Inn Express & Suites West Point-Fort Montgomery
-						</h4>
-						1106 Rte 9W, Fort Montgomery, New York{<br />}
 						<a
 							href="https://www.ihg.com/holidayinnexpress/hotels/us/en/fort-montgomery/ftmny/hoteldetail"
 							target="_blank"
 							rel="noopener noreferrer"
 							id="hotel-link"
 						>
-							https://www.ihg.com/holidayinnexpress/hotels/us/en/fort-montgomery/
+							<h4 id="location-title">
+								Holiday Inn Express & Suites {<br />}West Point-Fort Montgomery
+							</h4>{' '}
 						</a>
-						{<br />}
+						1106 Rte 9W, Fort Montgomery, New York{<br />}
 						17-20 Minute Drive to Factoria
 					</span>
 				</div>
