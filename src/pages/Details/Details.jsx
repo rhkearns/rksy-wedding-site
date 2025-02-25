@@ -109,6 +109,7 @@ const Details = () => {
 						Reserve your room here
 					</a>
 					{<br />}
+					{<br />}
 					<img
 						src={hotelImg}
 						alt="screenshot of the hotel website"
