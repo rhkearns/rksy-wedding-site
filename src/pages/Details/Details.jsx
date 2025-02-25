@@ -109,11 +109,6 @@ const Details = () => {
 						Reserve your room here
 					</a>
 					{<br />}
-					<h3>
-						2/20: We are aware of issues booking at this hotel for one night. We are working
-						on fixing it. Please check back here for updates!
-					</h3>
-					{<br />}
 					<img
 						src={hotelImg}
 						alt="screenshot of the hotel website"
