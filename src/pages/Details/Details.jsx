@@ -70,7 +70,6 @@ const Details = () => {
 					<p id="hotel-instructions">
 						Our room block, available for 1 or 2 nights, is at the {<br />}
 						Holiday Inn Express & Suites{<br />}
-						Rooms are booking up quickly! If there are no rooms available within the block, try to search outside of the block. {<br />}
 						<a
 							href="https://maps.app.goo.gl/kmcMrRKgJA8UwQZD9"
 							target="_blank"
@@ -81,6 +80,7 @@ const Details = () => {
 								<br />
 								Peekskill, New York
 							</span>
+							Rooms are booking up quickly! If there are no rooms available within the block, try to search outside of the block. {<br />}
 						</a>{' '}
 						<p>
 							The Holiday Inn Express is a less than 2 minute drive from
