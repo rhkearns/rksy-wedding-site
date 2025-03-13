@@ -81,6 +81,7 @@ const Details = () => {
 								Peekskill, New York
 							</span>
 						</a>{' '}
+						{<br />}
 						Rooms are booking up quickly! If there are no rooms available within the block, try to search outside of the block. {<br />}
 						<p>
 							The Holiday Inn Express is a less than 2 minute drive from
