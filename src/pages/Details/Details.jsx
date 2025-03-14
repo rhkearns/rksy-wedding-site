@@ -68,7 +68,7 @@ const Details = () => {
 				<h2>Hotel Details</h2>
 				<div id="reservation">
 					<p id="hotel-instructions">
-						Our room block is full, there may still be rooms available at the Holiday Inn Express & Suites, but if there aren't when you go to book, please try one of the hotels listed below., available for 1 or 2 nights, is at the {<br />}
+						Our room block is full, there may still be rooms available at the Holiday Inn Express & Suites, but if there aren't when you go to book, please try one of the hotels listed below.{<br />}
 						Holiday Inn Express & Suites{<br />}
 						<a
 							href="https://maps.app.goo.gl/kmcMrRKgJA8UwQZD9"
@@ -99,7 +99,7 @@ const Details = () => {
 						>
 							email{' '}
 						</a>
-						**
+						** */}
 					</p>
 					<a
 						href="https://www.hiexpress.com/peekskillny"
@@ -111,7 +111,7 @@ const Details = () => {
 					</a>
 					{<br />}
 					{<br />}
-					<img
+					{/* <img
 						src={hotelImg}
 						alt="screenshot of the hotel website"
 						id="hotel-img"
