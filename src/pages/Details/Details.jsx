@@ -1,6 +1,6 @@
 import React from 'react';
 import './details.scss';
-import hotelImg from '../../images/hotel-screenshot.png';
+// import hotelImg from '../../images/hotel-screenshot.png';
 
 const Details = () => {
 	return (
