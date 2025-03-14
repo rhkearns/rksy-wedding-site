@@ -68,7 +68,7 @@ const Details = () => {
 				<h2>Hotel Details</h2>
 				<div id="reservation">
 					<p id="hotel-instructions">
-						Our room block, available for 1 or 2 nights, is at the {<br />}
+						Our room block is full, there may still be rooms available at the Holiday Inn Express & Suites, but if there aren't when you go to book, please try one of the hotels listed below., available for 1 or 2 nights, is at the {<br />}
 						Holiday Inn Express & Suites{<br />}
 						<a
 							href="https://maps.app.goo.gl/kmcMrRKgJA8UwQZD9"
@@ -82,13 +82,12 @@ const Details = () => {
 							</span>
 						</a>{' '}
 						{<br />}
-						Rooms are booking up quickly! If there are no rooms available within the block, try to search outside of the block. {<br />}
 						<p>
 							The Holiday Inn Express is a less than 2 minute drive from
 							Factoria --- we would not recommend walking though, it's pretty
 							industrial and there are no sidewalks.
 						</p>
-						When you go to book your room, please select "Group Rate" in the
+						{/* When you go to book your room, please select "Group Rate" in the
 						"Rate Preference dropdown" and enter code "YKW" to receive the
 						discounted price. {<br />} **If you have trouble booking a room as
 						part of the room block, please send us a text or{' '}
@@ -116,7 +115,7 @@ const Details = () => {
 						src={hotelImg}
 						alt="screenshot of the hotel website"
 						id="hotel-img"
-					/>
+					/> */}
 					{<br />}
 					{<br />}
 					<h5>
