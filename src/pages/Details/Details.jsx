@@ -81,6 +81,15 @@ const Details = () => {
 								Peekskill, New York
 							</span>
 						</a>{' '}
+						<a
+						href="https://www.hiexpress.com/peekskillny"
+						target="_blank"
+						rel="noopener noreferrer"
+						id="hotel-link"
+					>
+						Reserve your room here
+					</a>
+					{<br />}
 						{<br />}
 						<p>
 							The Holiday Inn Express is a less than 2 minute drive from
@@ -101,15 +110,6 @@ const Details = () => {
 						</a>
 						** */}
 					</p>
-					<a
-						href="https://www.hiexpress.com/peekskillny"
-						target="_blank"
-						rel="noopener noreferrer"
-						id="hotel-link"
-					>
-						Reserve your room here
-					</a>
-					{<br />}
 					{<br />}
 					{/* <img
 						src={hotelImg}
