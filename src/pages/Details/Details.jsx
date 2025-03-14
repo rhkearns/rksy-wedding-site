@@ -86,11 +86,10 @@ const Details = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 						id="hotel-link"
-					>
+					>{<br />}
 						Reserve your room here
 					</a>
 					{<br />}
-						{<br />}
 						<p>
 							The Holiday Inn Express is a less than 2 minute drive from
 							Factoria --- we would not recommend walking though, it's pretty
@@ -110,14 +109,11 @@ const Details = () => {
 						</a>
 						** */}
 					</p>
-					{<br />}
 					{/* <img
 						src={hotelImg}
 						alt="screenshot of the hotel website"
 						id="hotel-img"
 					/> */}
-					{<br />}
-					{<br />}
 					<h5>
 						If you would like to stay at another hotel, here are some options,
 						but keep in mind that we will not have shuttle services to and from
