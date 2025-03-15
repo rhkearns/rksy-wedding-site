@@ -68,7 +68,6 @@ const Details = () => {
 				<h2>Hotel Details</h2>
 				<div id="reservation">
 					<p id="hotel-instructions">
-						Our room block is full, there may still be rooms available at the Holiday Inn Express & Suites, but if there aren't when you go to book, please try one of the hotels listed below.{<br />}
 						Holiday Inn Express & Suites{<br />}
 						<a
 							href="https://maps.app.goo.gl/kmcMrRKgJA8UwQZD9"
@@ -82,38 +81,42 @@ const Details = () => {
 							</span>
 						</a>{' '}
 						<a
-						href="https://www.hiexpress.com/peekskillny"
-						target="_blank"
-						rel="noopener noreferrer"
-						id="hotel-link"
-					>{<br />}
-						Reserve your room here
-					</a>
-					{<br />}
+							href="https://www.hiexpress.com/peekskillny"
+							target="_blank"
+							rel="noopener noreferrer"
+							id="hotel-link"
+						>
+							{<br />}
+							Reserve your room here
+						</a>
+						{<br />}
+						{<br />}
+						Our room block is full.{<br />} There may still be rooms available
+						at the Holiday Inn Express & Suites, but if there aren't when you go
+						to book, please try one of the hotels listed below, or you can look
+						at{' '}
+						<a
+							href="https://www.airbnb.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							airbnb
+						</a>{' '}
+						or{' '}
+						<a
+							href="https://www.vrbo.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							vrbo
+						</a>
+						.{<br />}
 						<p>
 							The Holiday Inn Express is a less than 2 minute drive from
 							Factoria --- we would not recommend walking though, it's pretty
 							industrial and there are no sidewalks.
 						</p>
-						{/* When you go to book your room, please select "Group Rate" in the
-						"Rate Preference dropdown" and enter code "YKW" to receive the
-						discounted price. {<br />} **If you have trouble booking a room as
-						part of the room block, please send us a text or{' '}
-						<a
-							href="mailto:rksy18371@gmail.com"
-							target="_blank"
-							rel="noopener noreferrer"
-							id="email-link"
-						>
-							email{' '}
-						</a>
-						** */}
 					</p>
-					{/* <img
-						src={hotelImg}
-						alt="screenshot of the hotel website"
-						id="hotel-img"
-					/> */}
 					<h5>
 						If you would like to stay at another hotel, here are some options,
 						but keep in mind that we will not have shuttle services to and from
