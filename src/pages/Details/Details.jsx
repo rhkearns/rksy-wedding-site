@@ -14,8 +14,7 @@ const Details = () => {
 				<p>
 					For those who would like to stay in Peekskill for two nights {<br />}{' '}
 					we will be hosting a prosecco toast to welcome you at The Abbey Hotel,
-					900 Fort Hill Rd, Peekskill, at 8:30pm in the Cornerstone Room, on the
-					second floor of the hotel. The Abbey is a 7 minute drive from the
+					900 Fort Hill Rd, Peekskill, at 8:00pm. The Abbey is a 7 minute drive from the
 					Holiday Inn Express. {<br />} We then welcome you to join us at the
 					bar at the Abbey (while Ryan and Sam go to sleep to get ready for the
 					big day!)
